@@ -1,0 +1,46 @@
+|Lab2
+Sw[0] => Sw[0].IN1
+Sw[1] => Sw[1].IN1
+Sw[2] => Sw[2].IN1
+Sw[3] => Sw[3].IN1
+Sw[4] => Sw[4].IN1
+Sw[5] => Sw[5].IN1
+Sw[6] => Sw[6].IN1
+Sw[7] => Sw[7].IN1
+Sw[8] => Sw[8].IN1
+Sw[9] => Sw[9].IN1
+Led[0] << Switch2Led:s21_inst.port1
+Led[1] << Switch2Led:s21_inst.port1
+Led[2] << Switch2Led:s21_inst.port1
+Led[3] << Switch2Led:s21_inst.port1
+Led[4] << Switch2Led:s21_inst.port1
+Led[5] << Switch2Led:s21_inst.port1
+Led[6] << Switch2Led:s21_inst.port1
+Led[7] << Switch2Led:s21_inst.port1
+Led[8] << Switch2Led:s21_inst.port1
+Led[9] << Switch2Led:s21_inst.port1
+
+
+|Lab2|Switch2Led:s21_inst
+Sw[0] => Led[0].DATAIN
+Sw[1] => Led[1].DATAIN
+Sw[2] => Led[2].DATAIN
+Sw[3] => Led[3].DATAIN
+Sw[4] => Led[4].DATAIN
+Sw[5] => Led[5].DATAIN
+Sw[6] => Led[6].DATAIN
+Sw[7] => Led[7].DATAIN
+Sw[8] => Led[8].DATAIN
+Sw[9] => Led[9].DATAIN
+Led[0] <= Sw[0].DB_MAX_OUTPUT_PORT_TYPE
+Led[1] <= Sw[1].DB_MAX_OUTPUT_PORT_TYPE
+Led[2] <= Sw[2].DB_MAX_OUTPUT_PORT_TYPE
+Led[3] <= Sw[3].DB_MAX_OUTPUT_PORT_TYPE
+Led[4] <= Sw[4].DB_MAX_OUTPUT_PORT_TYPE
+Led[5] <= Sw[5].DB_MAX_OUTPUT_PORT_TYPE
+Led[6] <= Sw[6].DB_MAX_OUTPUT_PORT_TYPE
+Led[7] <= Sw[7].DB_MAX_OUTPUT_PORT_TYPE
+Led[8] <= Sw[8].DB_MAX_OUTPUT_PORT_TYPE
+Led[9] <= Sw[9].DB_MAX_OUTPUT_PORT_TYPE
+
+
